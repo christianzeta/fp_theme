@@ -3,7 +3,7 @@
 ?>
 
 <header id="main-header">
-
+    <h1><?php the_field('change_page_title') ?></h1>
 </header>
 <main id="content-area">
 
