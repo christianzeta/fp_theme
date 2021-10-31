@@ -9,7 +9,7 @@
     ?>
 </head>
 <body>
-    <header id="main-header">
-        <h1><?php the_field('change_page_title') ?></h1>
-    </header>
     <div id="main-container">
+        <header id="main-header">
+            <h1><?php the_field('change_page_title') ?></h1>
+        </header>

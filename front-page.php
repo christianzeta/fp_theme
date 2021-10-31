@@ -2,9 +2,6 @@
     get_header();
 ?>
 
-<header id="main-header">
-    <h1><?php the_field('change_page_title') ?></h1>
-</header>
 <main id="content-area">
     <section id="main-content">
         <div id="main-content-image">
@@ -15,11 +12,6 @@
         </div>
     </section>
 </main>
-<footer id="main-footer">
-    <div id="main-footer-widget">
-        <?php dynamic_sidebar('footer') ?> 
-    </div>
-</footer>
 
 <?php
     get_footer();
